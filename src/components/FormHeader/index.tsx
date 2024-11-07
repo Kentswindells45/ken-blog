@@ -38,7 +38,7 @@ const Quiz = ({
       );
 
       if (answers[index].isCorrect) {
-        setScore((prevscore) => -1);
+        setScore((prevscore) => prevscore -1);
       }
       answers.splice(index, 1);
     }

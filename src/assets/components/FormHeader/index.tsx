@@ -1,5 +1,5 @@
-import {LogoGithub, GlobeOutline } from  "react-ionicons"
-import background from "../../images/bg.jpg"
+import { LogoGithub, GlobeOutline } from "react-ionicons";
+import background from "../../images/bg.jpg";
 const FormHeader = () => {
   return (
     <div className="w-full flex items-center justify-center relative rounded-[12px]">
@@ -21,7 +21,7 @@ const FormHeader = () => {
           />
         </a>
       </div>
-      <span className="text-3xl text-white font-medium absolute left-1/2 translate-x-[-50%] translate-y-[160%] rounded-tl-[10px] z-[50]">
+      <span className="text-3xl text-white font-medium absolute left-1/2 translate-x-[-50%] translate-y-[50%] rounded-tl-[10px] z-[50]">
         Quiz App
       </span>
       <img
