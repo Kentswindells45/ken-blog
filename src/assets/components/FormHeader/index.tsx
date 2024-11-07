@@ -2,7 +2,7 @@ import {LogoGithub, GlobeOutline } from  "react-ionicons"
 import background from "../../images/bg.jpg"
 const FormHeader = () => {
   return (
-    <div className="w-full flex items-center justify-center relative rounded-[10px]">
+    <div className="w-full flex items-center justify-center relative rounded-[12px]">
       <div className="absolute top-5 z-[10] flex items-center gap-3">
         <a href="#" target="_blank" rel="noreferrer">
           <LogoGithub

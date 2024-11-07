@@ -23,7 +23,7 @@ const Quiz = ({
     const hasNextQuestion = data[currentQuestion + 1];
     // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     hasNextQuestion ? setCurrentQuestion(currentQuestion + 1) : done();
-  };
+  }; 
   const back = () => {
     setCurrentQuestion((prevQuestion) => prevQuestion - 1);
   };
